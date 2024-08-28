@@ -4,11 +4,13 @@ export default function FunctionComponents(props){
 
     function stateincrement(){
         setCount(count+1)
+        console.log(count)
 
-    
     }
     function statedecrement(){
         setCount(count-1)
+        console.log(count);
+        
 
     
     }

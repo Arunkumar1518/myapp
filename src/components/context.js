@@ -1,50 +1,27 @@
-import {useState} from 'react'
-function Context(){
-    const[course,setCourse]= useState("REACT")
+import { useState } from "react";
+
+export default function Context(){
+    const[course,setcourse]=useState("REACT")
     return(
         <div>
-            <h1>{course} Course Started</h1>
+            <h1>{course} course started</h1>
             <Component2 data={course}/>
         </div>
     )
 }
-
 function Component2(props){
     return(
-       <div>
-            <h1>components 2</h1>
+        <div>
+            <h1>component 2</h1>
             <Component3 data={props.data}/>
-            </div>
+        </div>
     )
-}
 
+}
 function Component3(props){
     return(
         <div>
-            <h1>component 3</h1>
-            <Component4 data={props.data}/>
-          
-
+            <h1>{props.data} course ended</h1>
         </div>
     )
 }
-function Component4(props){
-    return(
-        <div>
-            <h1>component 4</h1>
-            <Component5 data={props.data}/>
-          
-
-        </div>
-    )
-}
-function Component5(props){
-    return(
-        <div>
-            <h1>{props.data} Course finished</h1>
-          
-
-        </div>
-    )
-}
-export default Context

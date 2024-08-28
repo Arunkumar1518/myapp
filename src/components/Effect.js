@@ -6,9 +6,11 @@ export default function Effect(){
         setCount(Count+1)
     }
     useEffect(()=>{
-        document.title=`Count:${Count}`
-    })
-    return(
+        document.title=`Count:${{Count},[Count] }`
+    }
+    )
+        
+        return(
         <div>
             <h1>state value:{Count}</h1>
             <button onClick={handlestste}>increment</button>

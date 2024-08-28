@@ -6,6 +6,8 @@ import UserefCom from "./components/Refcomponents"
 import Effect from "./components/Effect"
 import Lifecycle from "./components/lifecycle"
 import Contextadd from "./components/context2"
+import Refcomponent2 from "./components/RefComponent2"
+import Form from "./components/forms"
 
 export default function Vijay(){
   return(
@@ -13,16 +15,18 @@ export default function Vijay(){
       <FunctionComponents/>
       <hr/>
       <ClassComponents/>
-      <hr/>
-      {/* <Navbar/> */}
+      {/* <hr/>
+      <Navbar/>
       <hr/>
       <UserefCom/>
       <hr/>
       <Context/>
       <hr/>
-      {/* <Effect/> */}
-      {/* <Lifecycle/> */}
-      {/* <Contextadd/> */}
+      <Effect/>
+      <Lifecycle/>
+      <Contextadd/>
+      <Refcomponent2/>
+      <Form/> */}
 
        </div>
   )
