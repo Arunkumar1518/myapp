@@ -27,7 +27,7 @@ export default function Form(){
                 <option value="CSS" >CSS</option>
                 <option value="JAVA SCRIPT" >JAVA SCRIPT</option>
                 <option value="PYTHON" >PYTHON</option>
-                <option value="C++" >C++</option>
+               
             </select>
         </div>
     )
